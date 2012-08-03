@@ -193,9 +193,15 @@
         </div>
 
         <div id="about">
-		  <video id="sampleMovie" src="assets/animoto_video.mp4" type="video/mp4" autoplay="autoplay" controls></video>
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
+			<video autoplay="autoplay" controls>
+			  <source src="assets/animoto_video.webm" type="video/webm">
+			  <source src="assets/animoto_video.mp4" type="video/mp4">
+			  I'm sorry; your browser doesn't support HTML5 video.
+			  <!-- You can embed a Flash player here, to play your mp4 video in older browseres -->
+			</video>
+		  <!--><video id="sampleMovie" src="assets/animoto_video.mp4" type="video/mp4" autoplay="autoplay" controls></video>
+          #<h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3> -->
+          #<div id="about-content" style="display: none"></div>
         </div>
 
        
